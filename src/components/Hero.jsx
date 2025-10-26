@@ -1,3 +1,5 @@
+import aneesPhoto from "../assets/anees_photo.jpg";
+
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -60,7 +62,7 @@ export default function Hero() {
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/30 shadow-2xl group">
                   {   <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-6xl font-bold">
                       <img 
-                        src="/src/assets/anees_photo.jpg" 
+                        src={aneesPhoto} 
                         alt="Muhammad Anees" 
                         className="w-full h-full object-cover"
                       />
