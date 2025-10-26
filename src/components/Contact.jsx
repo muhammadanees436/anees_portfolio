@@ -123,15 +123,25 @@ export default function Contact() {
             </div>
 
             <div className="pt-8">
-              <a href="mailto:mohammadanees436@gmail.com" className="btn-primary group">
-                <span className="flex items-center gap-2">
-                  Say Hello 👋
-                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </span>
-              </a>
-            </div>
+  <a
+    href="https://wa.me/923450054136?text=Hi%20Anees!%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-primary group flex items-center justify-center gap-2"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      className="w-5 h-5 text-white group-hover:scale-110 transition-transform duration-300"
+    >
+      <path d="M20.52 3.48A11.73 11.73 0 0 0 12 0C5.37 0 .04 5.34.04 11.93a11.78 11.78 0 0 0 1.6 5.94L0 24l6.32-1.65a11.86 11.86 0 0 0 5.68 1.46h.01c6.63 0 11.96-5.33 11.96-11.93 0-3.19-1.25-6.19-3.45-8.4zM12 21.54a9.88 9.88 0 0 1-5.04-1.37l-.36-.21-3.75.98 1-3.65-.24-.38a9.84 9.84 0 0 1-1.51-5.23C2.09 6.46 6.52 2.05 12 2.05c2.64 0 5.13 1.03 7 2.91a9.85 9.85 0 0 1 2.93 7c0 5.48-4.43 9.91-9.93 9.91zm5.44-7.41c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15s-.77.97-.94 1.17-.35.22-.64.07a8.03 8.03 0 0 1-2.36-1.45 8.8 8.8 0 0 1-1.63-2.02c-.17-.3 0-.46.13-.61.14-.15.3-.35.44-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.07 2.88 1.22 3.08c.15.2 2.1 3.22 5.1 4.51.72.31 1.27.5 1.7.64.71.22 1.36.19 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.08-.12-.27-.2-.57-.35z" />
+    </svg>
+    WhatsApp Me 💬
+  </a>
+</div>
+
+
           </div>
 
           {/* Contact Form */}
